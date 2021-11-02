@@ -1,0 +1,6 @@
+#include <stdio.h>
+
+int main(){
+	printf("Hola Mundo desde VIM en Windows Orlando");
+	return 0;
+}
