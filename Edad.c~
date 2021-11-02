@@ -1,0 +1,32 @@
+/*
+Title		:Código para determinar si el usuario es mayor o menor de edad.
+Description	:Este es un código que determinara si el usuario es mayor o menor de edad
+		 dependiendo del año de nacimiento
+Author		:Orlando Urbano Trejo (Lando).
+Date		:19_10_2021
+Version		:1_
+*/
+
+#include <stdio.h>
+int main(){//Inicio metodo principal
+
+	//Declaración de variables
+	int Fecha_Nacimiento;
+	int Fecha_Actual = 2021;
+	int Diferencia = 0;
+
+	printf ("Digite su año de nacimiento: ");
+	scanf ("%d",&Fecha_Nacimiento);
+
+	Diferencia = (Fecha_Actual - Fecha_Nacimiento);
+
+	if ( Diferencia >= 18){
+		printf ("%s %d %s", "El usuario tiene", Diferencia, "Por lo tanto es mayor de edad");
+	}
+	else {
+		printf ("%s %d %s", "El usuario tiene", Diferencia, "Por lo tanto es menor de edad");
+	}
+
+
+}//Fin metodo principal
+
